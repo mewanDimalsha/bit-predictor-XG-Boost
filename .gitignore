@@ -1,0 +1,32 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# IDE or editor-specific files
+.idea/
+.vscode/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS or distribution-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+ehthumbs.db

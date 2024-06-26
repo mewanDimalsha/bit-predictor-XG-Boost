@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bitcoin Price Prediction Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+      h1 {
+        color: #333;
+      }
+      .result {
+        margin-top: 30px;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bitcoin Price Prediction Result</h1>
+    <div class="result">
+      <p>Next Day Close Price: <span id="next_day_close_price"></span></p>
+    </div>
+    <script>
+      document.getElementById("next_day_close_price").textContent =
+        "{{ next_day_close_price }}";
+    </script>
+  </body>
+</html>
